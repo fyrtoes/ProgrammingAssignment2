@@ -65,5 +65,5 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inv)                ## Use setinverse() to assign 'inv' to
                                    ##     the 'inv' attribute
                                    ##     in the makeCacheMatrix object
-  inv                              ## 
+  inv                              ## Returns 'inv'
 }
